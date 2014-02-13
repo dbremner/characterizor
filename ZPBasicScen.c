@@ -12,6 +12,7 @@
 
 #include "ZPChronometer.h"
 #include "ZPFloatTests.h"
+#include "ZPDivisions.h"
 
 static int ZPNothing(void* ctx)
 {
@@ -23,6 +24,7 @@ void ZPBasicScen(void)
     ZPFloatReduce_ctx sum = { (1<<20), ZPReductorSum };
 
     ZPFloatReduceSum_ctx sumIters = { (1<<20) };
+    uint32_t divisionIterations = 1000000;
 
     
     ZPChronometer(ZPNothing, NULL);
@@ -32,4 +34,8 @@ void ZPBasicScen(void)
 
     ZPChronometer(ZPFloatReduceSum, &sumIters);
 
+    
+    ZPChronometer(ZPDivisions, &divisionIterations);
+    ZPChronometer(ZPUnrolledDivisions, &divisionIterations);
+    ZPChronometer(ZPParallelDivisions, &divisionIterations);
 }

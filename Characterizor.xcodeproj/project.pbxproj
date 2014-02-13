@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FD14A2718AD866A00613926 /* ZPDivisions.c in Sources */ = {isa = PBXBuildFile; fileRef = 8FD14A2618AD866A00613926 /* ZPDivisions.c */; };
 		8FD235FE188DDAA300A5AE01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD235FD188DDAA300A5AE01 /* Foundation.framework */; };
 		8FD23600188DDAA300A5AE01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD235FF188DDAA300A5AE01 /* CoreGraphics.framework */; };
 		8FD23602188DDAA300A5AE01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD23601188DDAA300A5AE01 /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8FD14A2618AD866A00613926 /* ZPDivisions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ZPDivisions.c; sourceTree = "<group>"; };
+		8FD14A2818AD867500613926 /* ZPDivisions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPDivisions.h; sourceTree = "<group>"; };
 		8FD235FA188DDAA300A5AE01 /* Characterizor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Characterizor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD235FD188DDAA300A5AE01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8FD235FF188DDAA300A5AE01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -182,6 +185,8 @@
 				8FD23640188DE67300A5AE01 /* ZPBasicScen.c */,
 				8FD23645188DEA7600A5AE01 /* ZPFloatTests.h */,
 				8FD23643188DEA5C00A5AE01 /* ZPFloatTests.c */,
+				8FD14A2818AD867500613926 /* ZPDivisions.h */,
+				8FD14A2618AD866A00613926 /* ZPDivisions.c */,
 			);
 			name = Characterizor;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FD14A2718AD866A00613926 /* ZPDivisions.c in Sources */,
 				8FD2360E188DDAA300A5AE01 /* ZPAppDelegate.m in Sources */,
 				8FD2363D188DE48900A5AE01 /* ZPSupport.c in Sources */,
 				8FD23644188DEA5C00A5AE01 /* ZPFloatTests.c in Sources */,
@@ -365,7 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -405,7 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
