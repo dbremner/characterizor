@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FD235FE188DDAA300A5AE01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD235FD188DDAA300A5AE01 /* Foundation.framework */; };
+		8FD23600188DDAA300A5AE01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD235FF188DDAA300A5AE01 /* CoreGraphics.framework */; };
+		8FD23602188DDAA300A5AE01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD23601188DDAA300A5AE01 /* UIKit.framework */; };
+		8FD23608188DDAA300A5AE01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FD23606188DDAA300A5AE01 /* InfoPlist.strings */; };
+		8FD2360A188DDAA300A5AE01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD23609188DDAA300A5AE01 /* main.m */; };
+		8FD2360E188DDAA300A5AE01 /* ZPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2360D188DDAA300A5AE01 /* ZPAppDelegate.m */; };
+		8FD23611188DDAA300A5AE01 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD2360F188DDAA300A5AE01 /* Main_iPhone.storyboard */; };
+		8FD23614188DDAA300A5AE01 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD23612188DDAA300A5AE01 /* Main_iPad.storyboard */; };
+		8FD23617188DDAA400A5AE01 /* ZPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD23616188DDAA400A5AE01 /* ZPMainViewController.m */; };
+		8FD2361A188DDAA400A5AE01 /* ZPFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD23619188DDAA400A5AE01 /* ZPFlipsideViewController.m */; };
+		8FD2361C188DDAA400A5AE01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FD2361B188DDAA400A5AE01 /* Images.xcassets */; };
+		8FD23623188DDAA400A5AE01 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD23622188DDAA400A5AE01 /* XCTest.framework */; };
+		8FD23624188DDAA400A5AE01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD235FD188DDAA300A5AE01 /* Foundation.framework */; };
+		8FD23625188DDAA400A5AE01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD23601188DDAA300A5AE01 /* UIKit.framework */; };
+		8FD2362D188DDAA400A5AE01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FD2362B188DDAA400A5AE01 /* InfoPlist.strings */; };
+		8FD2363A188DDCB000A5AE01 /* ZPChronometer.c in Sources */ = {isa = PBXBuildFile; fileRef = 8FD23639188DDCB000A5AE01 /* ZPChronometer.c */; };
+		8FD2363D188DE48900A5AE01 /* ZPSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2363C188DE48900A5AE01 /* ZPSupport.c */; };
+		8FD23641188DE67300A5AE01 /* ZPBasicScen.c in Sources */ = {isa = PBXBuildFile; fileRef = 8FD23640188DE67300A5AE01 /* ZPBasicScen.c */; };
+		8FD23644188DEA5C00A5AE01 /* ZPFloatTests.c in Sources */ = {isa = PBXBuildFile; fileRef = 8FD23643188DEA5C00A5AE01 /* ZPFloatTests.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FD23626188DDAA400A5AE01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FD235F2188DDAA300A5AE01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FD235F9188DDAA300A5AE01;
+			remoteInfo = Characterizor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FD235FA188DDAA300A5AE01 /* Characterizor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Characterizor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD235FD188DDAA300A5AE01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8FD235FF188DDAA300A5AE01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8FD23601188DDAA300A5AE01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8FD23605188DDAA300A5AE01 /* Characterizor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Characterizor-Info.plist"; sourceTree = "<group>"; };
+		8FD23607188DDAA300A5AE01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8FD23609188DDAA300A5AE01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FD2360B188DDAA300A5AE01 /* Characterizor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Characterizor-Prefix.pch"; sourceTree = "<group>"; };
+		8FD2360C188DDAA300A5AE01 /* ZPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPAppDelegate.h; sourceTree = "<group>"; };
+		8FD2360D188DDAA300A5AE01 /* ZPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPAppDelegate.m; sourceTree = "<group>"; };
+		8FD23610188DDAA300A5AE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		8FD23613188DDAA300A5AE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		8FD23615188DDAA400A5AE01 /* ZPMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPMainViewController.h; sourceTree = "<group>"; };
+		8FD23616188DDAA400A5AE01 /* ZPMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPMainViewController.m; sourceTree = "<group>"; };
+		8FD23618188DDAA400A5AE01 /* ZPFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPFlipsideViewController.h; sourceTree = "<group>"; };
+		8FD23619188DDAA400A5AE01 /* ZPFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPFlipsideViewController.m; sourceTree = "<group>"; };
+		8FD2361B188DDAA400A5AE01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8FD23621188DDAA400A5AE01 /* CharacterizorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharacterizorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD23622188DDAA400A5AE01 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8FD2362A188DDAA400A5AE01 /* CharacterizorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CharacterizorTests-Info.plist"; sourceTree = "<group>"; };
+		8FD2362C188DDAA400A5AE01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8FD2362E188DDAA400A5AE01 /* CharacterizorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharacterizorTests.m; sourceTree = "<group>"; };
+		8FD23639188DDCB000A5AE01 /* ZPChronometer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ZPChronometer.c; sourceTree = "<group>"; };
+		8FD2363B188DDCC000A5AE01 /* ZPChronometer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPChronometer.h; sourceTree = "<group>"; };
+		8FD2363C188DE48900A5AE01 /* ZPSupport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ZPSupport.c; sourceTree = "<group>"; };
+		8FD2363E188DE49900A5AE01 /* ZPSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPSupport.h; sourceTree = "<group>"; };
+		8FD23640188DE67300A5AE01 /* ZPBasicScen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ZPBasicScen.c; sourceTree = "<group>"; };
+		8FD23642188DE76100A5AE01 /* ZPBasicScen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPBasicScen.h; sourceTree = "<group>"; };
+		8FD23643188DEA5C00A5AE01 /* ZPFloatTests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ZPFloatTests.c; sourceTree = "<group>"; };
+		8FD23645188DEA7600A5AE01 /* ZPFloatTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPFloatTests.h; sourceTree = "<group>"; };
+		8FD23646188DEA9C00A5AE01 /* ZPTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPTestModel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FD235F7188DDAA300A5AE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD23600188DDAA300A5AE01 /* CoreGraphics.framework in Frameworks */,
+				8FD23602188DDAA300A5AE01 /* UIKit.framework in Frameworks */,
+				8FD235FE188DDAA300A5AE01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD2361E188DDAA400A5AE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD23623188DDAA400A5AE01 /* XCTest.framework in Frameworks */,
+				8FD23625188DDAA400A5AE01 /* UIKit.framework in Frameworks */,
+				8FD23624188DDAA400A5AE01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FD235F1188DDAA300A5AE01 = {
+			isa = PBXGroup;
+			children = (
+				8FD23638188DDB7400A5AE01 /* Characterizor */,
+				8FD23603188DDAA300A5AE01 /* iOS app */,
+				8FD23628188DDAA400A5AE01 /* CharacterizorTests */,
+				8FD235FC188DDAA300A5AE01 /* Frameworks */,
+				8FD235FB188DDAA300A5AE01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FD235FB188DDAA300A5AE01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FD235FA188DDAA300A5AE01 /* Characterizor.app */,
+				8FD23621188DDAA400A5AE01 /* CharacterizorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FD235FC188DDAA300A5AE01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FD235FD188DDAA300A5AE01 /* Foundation.framework */,
+				8FD235FF188DDAA300A5AE01 /* CoreGraphics.framework */,
+				8FD23601188DDAA300A5AE01 /* UIKit.framework */,
+				8FD23622188DDAA400A5AE01 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FD23603188DDAA300A5AE01 /* iOS app */ = {
+			isa = PBXGroup;
+			children = (
+				8FD2360C188DDAA300A5AE01 /* ZPAppDelegate.h */,
+				8FD2360D188DDAA300A5AE01 /* ZPAppDelegate.m */,
+				8FD2360F188DDAA300A5AE01 /* Main_iPhone.storyboard */,
+				8FD23612188DDAA300A5AE01 /* Main_iPad.storyboard */,
+				8FD23615188DDAA400A5AE01 /* ZPMainViewController.h */,
+				8FD23616188DDAA400A5AE01 /* ZPMainViewController.m */,
+				8FD23618188DDAA400A5AE01 /* ZPFlipsideViewController.h */,
+				8FD23619188DDAA400A5AE01 /* ZPFlipsideViewController.m */,
+				8FD2361B188DDAA400A5AE01 /* Images.xcassets */,
+				8FD23604188DDAA300A5AE01 /* Supporting Files */,
+			);
+			name = "iOS app";
+			path = iOS_app;
+			sourceTree = "<group>";
+		};
+		8FD23604188DDAA300A5AE01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FD23605188DDAA300A5AE01 /* Characterizor-Info.plist */,
+				8FD23606188DDAA300A5AE01 /* InfoPlist.strings */,
+				8FD23609188DDAA300A5AE01 /* main.m */,
+				8FD2360B188DDAA300A5AE01 /* Characterizor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FD23628188DDAA400A5AE01 /* CharacterizorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FD2362E188DDAA400A5AE01 /* CharacterizorTests.m */,
+				8FD23629188DDAA400A5AE01 /* Supporting Files */,
+			);
+			path = CharacterizorTests;
+			sourceTree = "<group>";
+		};
+		8FD23629188DDAA400A5AE01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FD2362A188DDAA400A5AE01 /* CharacterizorTests-Info.plist */,
+				8FD2362B188DDAA400A5AE01 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FD23638188DDB7400A5AE01 /* Characterizor */ = {
+			isa = PBXGroup;
+			children = (
+				8FD2363F188DE62A00A5AE01 /* Core */,
+				8FD23642188DE76100A5AE01 /* ZPBasicScen.h */,
+				8FD23640188DE67300A5AE01 /* ZPBasicScen.c */,
+				8FD23645188DEA7600A5AE01 /* ZPFloatTests.h */,
+				8FD23643188DEA5C00A5AE01 /* ZPFloatTests.c */,
+			);
+			name = Characterizor;
+			sourceTree = "<group>";
+		};
+		8FD2363F188DE62A00A5AE01 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8FD23646188DEA9C00A5AE01 /* ZPTestModel.h */,
+				8FD2363B188DDCC000A5AE01 /* ZPChronometer.h */,
+				8FD23639188DDCB000A5AE01 /* ZPChronometer.c */,
+				8FD2363E188DE49900A5AE01 /* ZPSupport.h */,
+				8FD2363C188DE48900A5AE01 /* ZPSupport.c */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FD235F9188DDAA300A5AE01 /* Characterizor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FD23632188DDAA400A5AE01 /* Build configuration list for PBXNativeTarget "Characterizor" */;
+			buildPhases = (
+				8FD235F6188DDAA300A5AE01 /* Sources */,
+				8FD235F7188DDAA300A5AE01 /* Frameworks */,
+				8FD235F8188DDAA300A5AE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Characterizor;
+			productName = Characterizor;
+			productReference = 8FD235FA188DDAA300A5AE01 /* Characterizor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FD23620188DDAA400A5AE01 /* CharacterizorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FD23635188DDAA400A5AE01 /* Build configuration list for PBXNativeTarget "CharacterizorTests" */;
+			buildPhases = (
+				8FD2361D188DDAA400A5AE01 /* Sources */,
+				8FD2361E188DDAA400A5AE01 /* Frameworks */,
+				8FD2361F188DDAA400A5AE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FD23627188DDAA400A5AE01 /* PBXTargetDependency */,
+			);
+			name = CharacterizorTests;
+			productName = CharacterizorTests;
+			productReference = 8FD23621188DDAA400A5AE01 /* CharacterizorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FD235F2188DDAA300A5AE01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pierre Lebeaupin";
+				TargetAttributes = {
+					8FD23620188DDAA400A5AE01 = {
+						TestTargetID = 8FD235F9188DDAA300A5AE01;
+					};
+				};
+			};
+			buildConfigurationList = 8FD235F5188DDAA300A5AE01 /* Build configuration list for PBXProject "Characterizor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FD235F1188DDAA300A5AE01;
+			productRefGroup = 8FD235FB188DDAA300A5AE01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FD235F9188DDAA300A5AE01 /* Characterizor */,
+				8FD23620188DDAA400A5AE01 /* CharacterizorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FD235F8188DDAA300A5AE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD23614188DDAA300A5AE01 /* Main_iPad.storyboard in Resources */,
+				8FD2361C188DDAA400A5AE01 /* Images.xcassets in Resources */,
+				8FD23611188DDAA300A5AE01 /* Main_iPhone.storyboard in Resources */,
+				8FD23608188DDAA300A5AE01 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD2361F188DDAA400A5AE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD2362D188DDAA400A5AE01 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FD235F6188DDAA300A5AE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD2360E188DDAA300A5AE01 /* ZPAppDelegate.m in Sources */,
+				8FD2363D188DE48900A5AE01 /* ZPSupport.c in Sources */,
+				8FD23644188DEA5C00A5AE01 /* ZPFloatTests.c in Sources */,
+				8FD2360A188DDAA300A5AE01 /* main.m in Sources */,
+				8FD23641188DE67300A5AE01 /* ZPBasicScen.c in Sources */,
+				8FD2361A188DDAA400A5AE01 /* ZPFlipsideViewController.m in Sources */,
+				8FD2363A188DDCB000A5AE01 /* ZPChronometer.c in Sources */,
+				8FD23617188DDAA400A5AE01 /* ZPMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD2361D188DDAA400A5AE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FD23627188DDAA400A5AE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FD235F9188DDAA300A5AE01 /* Characterizor */;
+			targetProxy = 8FD23626188DDAA400A5AE01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FD23606188DDAA300A5AE01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FD23607188DDAA300A5AE01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8FD2360F188DDAA300A5AE01 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FD23610188DDAA300A5AE01 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8FD23612188DDAA300A5AE01 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FD23613188DDAA300A5AE01 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8FD2362B188DDAA400A5AE01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FD2362C188DDAA400A5AE01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FD23630188DDAA400A5AE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FD23631188DDAA400A5AE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FD23633188DDAA400A5AE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS_app/Characterizor-Prefix.pch";
+				INFOPLIST_FILE = "iOS_app/Characterizor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8FD23634188DDAA400A5AE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS_app/Characterizor-Prefix.pch";
+				INFOPLIST_FILE = "iOS_app/Characterizor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8FD23636188DDAA400A5AE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Characterizor.app/Characterizor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Characterizor/Characterizor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CharacterizorTests/CharacterizorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8FD23637188DDAA400A5AE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Characterizor.app/Characterizor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Characterizor/Characterizor-Prefix.pch";
+				INFOPLIST_FILE = "CharacterizorTests/CharacterizorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FD235F5188DDAA300A5AE01 /* Build configuration list for PBXProject "Characterizor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD23630188DDAA400A5AE01 /* Debug */,
+				8FD23631188DDAA400A5AE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FD23632188DDAA400A5AE01 /* Build configuration list for PBXNativeTarget "Characterizor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD23633188DDAA400A5AE01 /* Debug */,
+				8FD23634188DDAA400A5AE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FD23635188DDAA400A5AE01 /* Build configuration list for PBXNativeTarget "CharacterizorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD23636188DDAA400A5AE01 /* Debug */,
+				8FD23637188DDAA400A5AE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FD235F2188DDAA300A5AE01 /* Project object */;
+}
