@@ -29,13 +29,17 @@ void ZPBasicScen(void)
     
     ZPChronometer(ZPNothing, NULL);
     
-    
+    ZPFloatReduce(&sum);
     ZPChronometer(ZPFloatReduce, &sum);
 
+    ZPFloatReduceSum(&sumIters);
     ZPChronometer(ZPFloatReduceSum, &sumIters);
 
-    
+    ZPDivisions(&divisionIterations);
     ZPChronometer(ZPDivisions, &divisionIterations);
+    ZPUnrolledDivisions(&divisionIterations);
     ZPChronometer(ZPUnrolledDivisions, &divisionIterations);
+    ZPParallelDivisions(&divisionIterations);
     ZPChronometer(ZPParallelDivisions, &divisionIterations);
 }
+
